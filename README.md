@@ -26,7 +26,7 @@ Here are some screenshots of the application:
 ![Login Page](screenshots\login.png)
 
 ### Home Page
-![Products Page](screenshots\1.png)
+![Products Page](https://github.com/adithyakannam/E-Commerce/blob/main/screenshots/1.png)
 
 ### Products Page
 ![Products Page](screenshots\2.png)
