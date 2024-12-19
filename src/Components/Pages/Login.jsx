@@ -17,11 +17,9 @@ const Login = () => {
   const handleLogin = () => {
     const isAuthenticate = localStorage.getItem("isAuthenticated");
     const lemail = localStorage.getItem("email");
-    // console.log("hello");
     if (isAuthenticate) {
       if (lemail) {
-        // console.log(isAuthenticate);
-        // navigate("/home");
+        navigate("/home");
       }
     }
   };
@@ -39,7 +37,6 @@ const Login = () => {
 
       if (response.data.length == 0) {
         setShowModall({ isVisible: true, message: "USER DETAILS NOT FOUND" });
-        return console.log("no user found");
       }
       const { email, password } = response.data[0];
 
@@ -52,14 +49,13 @@ const Login = () => {
           navigate("/home");
         }, 2000);
       } else {
-        console.log("Credentials error");
         setShowModall({
           isVisible: true,
           message: "Incorrect Password :(",
         });
       }
     } catch (error) {
-      console.log(error);
+      setShowModall({ isVisible: true, message: "Site under maintance" });
     }
   };
 
@@ -70,7 +66,7 @@ const Login = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600">
       <form
-        className="bg-slate-200 rounded-lg shadow-md w-[40vw] min-h-[60vh] flex flex-col justify-center items-center p-8"
+        className="bg-slate-200 rounded-lg shadow-md w-[35vw] min-h-[50vh] flex flex-col justify-center items-center py-8 px-[50px]"
         onSubmit={handleSubmit}
       >
         <h2 className="text-2xl border-2 font-bold text-center">Login</h2>

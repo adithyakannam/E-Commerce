@@ -10,7 +10,7 @@ export const AccessoriesInstace = axios.create({
 export default AxiosInstance;
 
 export const DatabaseInstance = axios.create({
-  baseURL: "http://localhost:3000/",
+  baseURL: "https://github.com/adithyakannam/E-Commerce/blob/main/Database/db.json",
 });
 
 export const MensFashion = axios.create({
