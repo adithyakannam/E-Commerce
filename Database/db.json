@@ -1,0 +1,70 @@
+{
+  "address": [
+    {
+      "id": "b62d",
+      "name": "Adithya",
+      "email": "adithya@gmail.com",
+      "address": "boinpally, siricilla",
+      "contact": "1234567890",
+      "pincode": "515512"
+    }
+  ],
+  "users": [
+    {
+      "id": "6f29",
+      "name": "Adithya",
+      "email": "adithya@",
+      "password": "22288",
+      "phone": "779922"
+    },
+    {
+      "id": "7g30",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "password": "12345",
+      "phone": "5551234"
+    },
+    {
+      "id": "8h31",
+      "name": "Jane Roe",
+      "email": "jane.roe@example.com",
+      "password": "67890",
+      "phone": "5555678"
+    },
+    {
+      "id": "9i32",
+      "name": "Alice Smith",
+      "email": "alice.smith@example.com",
+      "password": "abcde",
+      "phone": "5559876"
+    },
+    {
+      "id": "5258",
+      "name": "Shiva Patel",
+      "email": "shiva@gmail.com",
+      "password": "12345",
+      "phone": "7667221785"
+    },
+    {
+      "id": "4760",
+      "name": "Pavan Teja",
+      "email": "pavn@gmail.com",
+      "password": "12345",
+      "phone": "875221047"
+    },
+    {
+      "id": "6359",
+      "name": "Maruthi.K",
+      "email": "maruthi@gmail.com",
+      "password": "12345",
+      "phone": "9011969235"
+    },
+    {
+      "id": "9677",
+      "name": "Adithya Kannam",
+      "email": "adithya@gmail.com",
+      "password": "12345",
+      "phone": "7023921292"
+    }
+  ]
+}
