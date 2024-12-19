@@ -1,12 +1,63 @@
-<<<<<<< HEAD
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
 # E-Commerce
->>>>>>> f347c0f86d00c50194c23c0f856000777c63e9b7
+
+![E-Commerce](https://lotus-fashion.netlify.app/)
+
+## Overview
+This is a modern e-commerce application built with React and Vite. It provides a seamless shopping experience.
+
+## Features
+- User Authentication
+- Product Listings
+- Shopping Cart
+- Order Management
+
+## Technologies Used
+- **Frontend**: React, Vite, Tailwind CSS (or any other CSS framework you are using)
+- **Database**: (JSON Server is a simple yet powerful tool frontend developers use to create a mock REST API for development and testing purposes)
+- **Deployment**: Netlify 
+
+## Getting Started
+To get a local copy up and running, follow these simple steps:
+
+### Prerequisites
+- Node.js installed
+
+### Installation
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/your-username/E-Commerce.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd E-Commerce
+    ```
+3. Install dependencies:
+    ```sh
+    npm install
+    ```
+4. Start the development server:
+    ```sh
+    npm run dev
+    ```
+
+## Usage
+1. Open your browser and navigate to `http://localhost:5173`.
+2. Register or log in to start shopping.
+3. Browse products, add them to your cart, and proceed to checkout.
+
+## Contributing
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+Distributed under the MIT License. See [LICENSE](http://_vscodecontentref_/2) for more information.
+
+## Contact
+Your Name - [your-email@example.com](mailto:adithyakannam6@gmail.com)
+
+Project Link: [https://github.com/adithyakannam/E-Commerce](https://github.com/adithyakannam/E-Commerce)
