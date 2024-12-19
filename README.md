@@ -33,7 +33,7 @@ Here are some screenshots of the application:
 ![Products Page](https://github.com/adithyakannam/E-Commerce/blob/main/screenshots/3.png)
 ![Products Page](https://github.com/adithyakannam/E-Commerce/blob/main/screenshots/4.png)
 
-### Cart Page
+### Product Page
 ![Product Page](https://github.com/adithyakannam/E-Commerce/blob/main/screenshots/Product.png)
 
 ### Cart Page
