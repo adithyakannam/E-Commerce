@@ -23,21 +23,21 @@ This is a modern e-commerce application built with React and Vite. It provides a
 Here are some screenshots of the application:
 
 ### Login Page
-![Login Page](src\assets\screenshots\login.png)
+![Login Page](screenshots\login.png)
 
 ### Home Page
-![Products Page](src\assets\screenshots\1.png)
+![Products Page](screenshots\1.png)
 
 ### Products Page
-![Products Page](src\assets\screenshots\2.png)
-![Products Page](src\assets\screenshots\3.png)
-![Products Page](src\assets\screenshots\4.png)
+![Products Page](screenshots\2.png)
+![Products Page](screenshots\3.png)
+![Products Page](screenshots\4.png)
 
 ### Cart Page
-![Product Page](src\assets\screenshots\Product.png)
+![Product Page](sscreenshots\Product.png)
 
 ### Cart Page
-![Cart Page](src\assets\screenshots\5.png)
+![Cart Page](screenshots\5.png)
 
 
 ## Getting Started
