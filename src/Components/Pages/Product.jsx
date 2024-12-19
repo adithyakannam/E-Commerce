@@ -33,7 +33,7 @@ const Product = () => {
             <h1 className="text-[3rem] mt-1 tracking-tight ">{title}</h1>
             <p className="text-xl mt-4 text-justify">{description}</p>
            {rating &&  <p className="text-3xl mt-5 flex items-center">{rating} <span className="ml-2"><FaRegStar/></span> </p>}
-            <p className="text-5xl mt-3">$ {price}</p>
+            <p className="text-5xl mt-3 text-red-400">$ {price}</p>
           </div>
           <div className="flex justify-around items-center my-2 w-[400px] ">
             <NavLink to="/address">

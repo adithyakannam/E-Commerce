@@ -83,7 +83,7 @@ const Login = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600">
       <form
-        className="bg-slate-200 rounded-lg shadow-md w-[35vw] min-h-[50vh] flex flex-col justify-center items-center py-8 px-[50px]"
+        className="bg-slate-200 rounded-lg shadow-md w-full max-w-xl min-h-[50vh] flex flex-col justify-center items-center py-8 px-[50px]"
         onSubmit={handleSubmit}
       >
         <h2 className="text-2xl border-2 font-bold text-center">Login</h2>

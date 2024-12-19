@@ -19,6 +19,27 @@ This is a modern e-commerce application built with React and Vite. It provides a
 - **Database**: (JSON Server is a simple yet powerful tool frontend developers use to create a mock REST API for development and testing purposes)
 - **Deployment**: Netlify
 
+## Screenshots
+Here are some screenshots of the application:
+
+### Login Page
+![Login Page](src\assets\screenshots\login.png)
+
+### Home Page
+![Products Page](src\assets\screenshots\1.png)
+
+### Products Page
+![Products Page](src\assets\screenshots\2.png)
+![Products Page](src\assets\screenshots\3.png)
+![Products Page](src\assets\screenshots\4.png)
+
+### Cart Page
+![Product Page](src\assets\screenshots\Product.png)
+
+### Cart Page
+![Cart Page](src\assets\screenshots\5.png)
+
+
 ## Getting Started
 
 To get a local copy up and running, follow these simple steps:

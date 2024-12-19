@@ -25,7 +25,7 @@ const Card = ({ product }) => {
   return (
     <div
       className=" font-barlow m-3 p-4 shadow-md bg-white min-h-[350px] h-[500px] w-[300px]"
-      data-aos="flip-left"
+      // data-aos="flip-left"
     >
       <NavLink to="/product" state={product}>
         <div className="flex py-10  h-[85%] flex-col justify-between items-center">
