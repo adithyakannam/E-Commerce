@@ -23,21 +23,21 @@ This is a modern e-commerce application built with React and Vite. It provides a
 Here are some screenshots of the application:
 
 ### Login Page
-![Login Page](screenshots\login.png)
+![Login Page](https://github.com/adithyakannam/E-Commerce/blob/main/screenshots/login.png)
 
 ### Home Page
 ![Products Page](https://github.com/adithyakannam/E-Commerce/blob/main/screenshots/1.png)
 
 ### Products Page
-![Products Page](screenshots\2.png)
-![Products Page](screenshots\3.png)
-![Products Page](screenshots\4.png)
+![Products Page](https://github.com/adithyakannam/E-Commerce/blob/main/screenshots/2.png)
+![Products Page](https://github.com/adithyakannam/E-Commerce/blob/main/screenshots/3.png)
+![Products Page](https://github.com/adithyakannam/E-Commerce/blob/main/screenshots/4.png)
 
 ### Cart Page
-![Product Page](sscreenshots\Product.png)
+![Product Page](https://github.com/adithyakannam/E-Commerce/blob/main/screenshots/Product.png)
 
 ### Cart Page
-![Cart Page](screenshots\5.png)
+![Cart Page](https://github.com/adithyakannam/E-Commerce/blob/main/screenshots/5.png)
 
 
 ## Getting Started
