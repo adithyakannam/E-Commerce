@@ -7,33 +7,34 @@ import { Authentication } from "../../Context/AuthenticateContext";
 
 
 const Profile = () => {
-  const [state, setState] = useState(null);
-  let useEmail = localStorage.getItem("email");
+  // const [state, setState] = useState(null);
+  // let useEmail = localStorage.getItem("email");
   let navigate = useNavigate();
   const {setAuthenticated} = useContext(Authentication)
 
-  const fetchApi = async () => {
-    try {
-      const response = await DatabaseInstance.get(`users?email=${useEmail}`);
-      setState(response.data[0]);
-    } catch (error) {
-      console.log(error);
-    }
-  };
+  // const fetchApi = async () => {
+  //   try {
+  //     const response = await DatabaseInstance.get(`users?email=${useEmail}`);
+  //     setState(response.data[0]);
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // };
 
-  useEffect(() => {
-    fetchApi();
-  }, []);
+  // useEffect(() => {
+  //   fetchApi();
+  // }, []);
 
-  if (!state) {
-    return (
-      <div>
-        <Spinner />
-      </div>
-    );
-  }
+  // if (!state) {
+  //   return (
+  //     <div>
+  //       <Spinner />
+  //     </div>
+  //   );
+  // }
 
-  const { name, email, phone, password } = state;
+  let  name="John doe", email="johndoe@yahoo.com", phone="985742045", password="67890" 
+  // const { name, email, phone, password } = state;
 
   return (
     <div className="w-full flex justify-center items-center mt-10">

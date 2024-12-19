@@ -11,6 +11,13 @@
   ],
   "users": [
     {
+      "id": "c5b11",
+      "name": "John Doe",
+      "email": "johndoe@yahoo.com",
+      "password": "67890",
+      "phone": "5559876"
+    },
+    {
       "id": "6f29",
       "name": "Adithya",
       "email": "adithya@",

@@ -20,7 +20,7 @@ function Modall({ message }) {
     setShow(false);
   };
 
-  console.log("Rendering modal with message:", message);
+  // console.log("Rendering modal with message:", message);
 
   return (
     <>
