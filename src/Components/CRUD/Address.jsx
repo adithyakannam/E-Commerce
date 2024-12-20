@@ -9,7 +9,7 @@ import Modall from "../Loading/Modall";
 import { OrderContext } from "../../Context/OrderContext";
 
 const Address = () => {
-  const [state, setState] = useState([]);
+  const [state, setState] = useState([{  name : "John doe", contact :"47559810", pincode:"205474", email:"johndoe@yaahoo.com", address:"12th Avenue, New York" }]);
   const [showModall, setShowModall] = useState({
     isVisible: false,
     message: "",
@@ -26,27 +26,29 @@ const Address = () => {
     }
   };
 
-  const fetchDb = async () => {
-    try {
-      const response = await DatabaseInstance.get("address");
-      setState(response.data);
-    } catch (error) {
-      console.log("Error fetching data:", error);
-    }
-  };
+  // const fetchDb = async () => {
+  //   try {
+  //     const response = await DatabaseInstance.get("address");
+  //     setState(response.data);
+  //   } catch (error) {
+  //     console.log("Error fetching data:", error);
+  //   }
+  // };
 
-  useEffect(() => {
-    fetchDb();
-  }, []);
+  // useEffect(() => {
+  //   fetchDb();
+  // }, []);
 
   const deleteUser = async (id) => {
-    try {
-      await DatabaseInstance.delete(`address/${id}`);
-      setState(prev=>prev.filter(obj => obj.id !== id))
-      setShowModall({isVisible:true,message:"address is deleted"})
-    } catch (error) {
-      console.log("Error deleting user:", error);
-    }
+    setShowModall({ isVisible: false, message: "" });
+    setShowModall({isVisible:true,message:"feature is disable due to site under maintance"})
+    // try {
+    //   await DatabaseInstance.delete(`address/${id}`);
+    //   setState(prev=>prev.filter(obj => obj.id !== id))
+    //   setShowModall({isVisible:true,message:"address is deleted"})
+    // } catch (error) {
+    //   console.log("Error deleting user:", error);
+    // }
   };
 
   const handleCloseModal = () => {
@@ -64,9 +66,9 @@ const Address = () => {
         </div>
       </div>
       <div className="flex flex-col justify-center items-center p-10">
-        {state.map(({ id, name, contact, pincode, email, address }) => (
+        {state.map(({ id, name, contact, pincode, email, address },index) => (
           <div
-            key={id}
+            key={index}
             className="w-4/6 m-1 rounded-md px-10 py-10 flex justify-around items-center bg-slate-100 "
           >
             <div className="w-2/6">

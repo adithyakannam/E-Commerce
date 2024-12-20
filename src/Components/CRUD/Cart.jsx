@@ -70,7 +70,7 @@ const Cart = () => {
           return (
             <div
               key={index}
-              className="p-5 shadow-md bg-white m-2 w-[290px] h-[400px] flex flex-col justify-between items-center "
+              className="p-5 shadow-md bg-white m-2 w-[290px] max-h-[500px] h-[fit-content] flex flex-col justify-between items-center "
               // data-aos="flip-left"
             >
               <div className="w-full flex justify-center items-center">
